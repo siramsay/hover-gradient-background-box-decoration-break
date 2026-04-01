@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- normalize CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css">
+
+
+  <link rel="stylesheet" href="style.css">
+  <title>My New Project</title>
+
+</head>
+
+<body>
+
+<main>
+
+  <h2>Box Decoration Break </h2>
+
+  <p class="seventy-ch">These demos illustrate the box-decoration-break property. The gradient effect is applied as a background, and the background-size is transitioned from 0% width to 100%. For more details on how the gradient is done please read <a href="https://designkojo.com/animating-gradient-text-backgrounds-on-hover-for-links">Animating Gradient Text Backgrounds on Hover for Links.</a></p>
+
+  <article class="full-highlight-wrapper">
+    <p>Let's see if <a class="full-highlight">Serif Fonts are Nice</a> with a gradient background
+      and hover.</p>
+  </article>
+  <p>The above illustrates the default value; Box-decoration-break: slice; inline in a paragraph, this works well.</p>
+
+  <article class="full-highlight-wrapper">
+    <p>Let's see if <a class="full-highlight clone">Serif Fonts are Nice</a> with a gradient background
+      and hover.</p>
+  </article>
+  <p>Box-decoration-break: clone; This is not the best place to use it.</p>
+
+  <article class="full-highlight-wrapper">
+    <p><a class="full-highlight clone">Box Decoration Break used on a title</a>
+  </article>
+  <p>Box-decoration-break: clone; As a title, this works well.</p>
+
+  <h2> Slide In Effect Sped Up</h2>
+
+  <p>This is the slide effect sped up, but still a little slow.<br>
+    The first one using slice, and the second using clone.</p>
+
+  <article class="full-highlight-wrapper">
+    <p><a class="full-highlight-slide">Box Decoration Break Slice used on a title</a>
+  </article>
+  <p>Box-decoration-break: slice;</p>
+
+  <article class="full-highlight-wrapper">
+    <p><a class="full-highlight-slide clone">Box Decoration Break Clone used on a title</a>
+  </article>
+  <p>Box-decoration-break: clone;</p>
+
+  <h2>Box Decoration Break — Background Position </h2>
+
+  <p>This example transitions the background-position from -600px on the x-axis to 0.<br>
+  I have sped this up to a normal transition timing of 300ms</p>
+
+  <article class="full-highlight-wrapper">
+    <p><a class="full-highlight-slide-position">Box Decoration Break used on a title</a>
+  </article>
+  <p>Box-decoration-break: slice;</p>
+
+  <article class="full-highlight-wrapper">
+    <p><a class="full-highlight-slide-position clone">Box Decoration Break used on a title</a>
+  </article>
+  <p>Box-decoration-break: clone;</p>
+
+</main>
+
+</body>
+<script src="action.js"></script>
+<!--
+  TLDR: scripts should be asynchronous or deferred until after the first render.
+  https://stackoverflow.com/questions/436411/where-should-i-put-script-tags-in-html-markup
+  https://developers.google.com/speed/docs/insights/BlockingJS Put small inline script is necessary
+ -->
+</html>
+
+
+
