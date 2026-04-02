@@ -11,6 +11,25 @@
 
   <link rel="stylesheet" href="style.css">
   <title>My New Project</title>
+  <!-- Matomo -->
+
+  <script>
+    var _paq = window._paq = window._paq || [];
+    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+    _paq.push(["setExcludedQueryParams", ["\/admin","\/admin\/*"]]);
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+      var u="https://dealu.net/matomo/";
+      _paq.push(['setTrackerUrl', u+'matomo.php']);
+      _paq.push(['setSiteId', '1']);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+    })();
+  </script>
+  <!-- End Matomo Code -->
+
+
 
 </head>
 
@@ -20,7 +39,13 @@
 
   <h2>Box Decoration Break </h2>
 
-  <p class="seventy-ch">These demos illustrate the box-decoration-break property. The gradient effect is applied as a background, and the background-size is transitioned from 0% width to 100%. For more details on how the gradient is done please read <a href="https://designkojo.com/animating-gradient-text-backgrounds-on-hover-for-links">Animating Gradient Text Backgrounds on Hover for Links.</a></p>
+  <p>For more coding articles please check out my main site <a href="http://designkojo.com">designkojo.com</a></p>
+
+  <p class="seventy-ch">These demos illustrate the box-decoration-break property. The gradient effect is applied as a background, and the background-size is transitioned from 0% width to 100%. For more details on how the gradient is done please read <a href="https://designkojo.com/animating-gradient-text-backgrounds-on-hover-for-links">Animating Gradient Text Backgrounds on Hover for Links.</a>
+    <br>
+    <br>
+    The code for this can be <a href="https://github.com/siramsay/hover-gradient-background-box-decoration-break">found on GitHub</a>.
+  </p>
 
   <article class="full-highlight-wrapper">
     <p>Let's see if <a class="full-highlight">Serif Fonts are Nice</a> with a gradient background
