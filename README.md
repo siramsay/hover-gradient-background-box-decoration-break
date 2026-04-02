@@ -4,7 +4,3 @@ These demos illustrate the box-decoration-break property. The gradient effect is
 
 Live demo:
 https://designkojo.com/demos/hover-gradient-background-box-decoration-break/
-
-Please visit https://designkojo.com/demos/hover-gradient-background-box-decoration-break/
-
-
